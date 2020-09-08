@@ -2,6 +2,8 @@ import React from 'react';
 
 //imported connect
 import {connect} from 'react-redux'
+//imported addFeature action 
+import {addFeature} from './actions'
 
 
 import Header from './components/Header';
@@ -34,7 +36,7 @@ const App = (props) => {
         <AddedFeatures car={props.car} />
       </div>
       <div className="box">
-        <AdditionalFeatures additionalFeatures={props.additionalFeatures} />
+        <AdditionalFeatures additionalFeatures={props.additionalFeatures} addFeature={props.addFeature} />
         <Total car={props.car} additionalPrice={props.additionalPrice} />
       </div>
     </div>
@@ -52,4 +54,4 @@ function mapStateToProps (state){
 }
 
 
-export default connect(mapStateToProps,{})(App);
+export default connect(mapStateToProps,{addFeature})(App);

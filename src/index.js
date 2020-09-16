@@ -6,7 +6,8 @@ import App from "./App";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 
-import { carReducer } from "./reducers";
+import reducer from "./reducers/index";
+
 import "bulma/css/bulma.css";
 import "./styles.scss";
 
@@ -19,7 +20,7 @@ import "./styles.scss";
 // }
 
 // 3. made a store const with reducer //
-const store = createStore(carReducer);
+const store = createStore(reducer);
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

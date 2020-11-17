@@ -1,4 +1,4 @@
-# Trinkets Shop
+# Car Sales
 
 This is an application that implements React-Redux as a state management system for the data used. The user can add and remove additional features of a car and the total costs updates as well.
 

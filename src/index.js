@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 
 import reducer from "./reducers/index";
 
-import "bulma/css/bulma.css";
+// import "bulma/css/bulma.css";
 import "./styles.scss";
 
 // 2. created reducer to hold state in for now //

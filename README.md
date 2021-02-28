@@ -27,6 +27,7 @@
   
 <div align="center">
   <a href="https://car-sales-6n3iiyx5y.vercel.app/" title="Demo"> Demo<img src="https://i.stack.imgur.com/xOpyY.png" alt="Redux" width="42px" height="42px"></a>
+ <br/>
 <a href="https://githubbox.com/abdimohamud/Car-Sales" title="CodeSandbox">CodeSandbox Demo<img src="https://github.com/gilbarbara/logos/blob/master/logos/codesandbox.svg" alt="CodeSandbox" width="42px" height="42px"></a>
 </div>
 

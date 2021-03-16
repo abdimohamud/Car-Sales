@@ -19,7 +19,7 @@
 
 
 
-<p align="center">This is an ReactJS web application that implements React-Redux as a state management system for the data used. The user can add and remove additional features of a car and the total costs updates as well.</p>
+<p align="center">An ReactJS web application that implements React-Redux as a state management system for the data used. The user can add and remove additional features of a car and the total costs updates as well.</p>
 
 ![Alt Text](https://abdimohamud.codes/images/car-sales-demo.gif)
 

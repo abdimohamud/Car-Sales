@@ -1,91 +1,91 @@
-# Module Project: Redux - Car Sales
 
-In this project you are given the skeleton/structure/styling of a React app. There is even some state built in for you. Your job will be to implement React-Redux as the state management system for this application.
+ <h1 align="center">Car Sales</h1>
+ 
 
-## Introduction
-
----
-
-Read these instructions carefully. Understand exactly what is expected before starting this project.
-
-## Commits
-
-Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons.
-
-## Description
-
-In this project you will implement Redux to manage the state for this React application.
-
-# _Project - Car Sales_
-
-- This is a really fun project, and one to show your family and friends when you've finished.
-- You will be starting with a structured and styled app
-- You have been commissioned to implement Redux as the state management system in this app
-- You have the freedom to manage the state how you would like - ie, connecting multiple components to pass data directly to them, or maybe connecting one component, and then putting the data into a context object.
-
-## Instructions
-
-### Task 1: Project Setup
-
-## Project Set Up
-
-This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
-
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal.
-- [ ] Download project dependencies by running `npm install`.
-- [ ] Add the dependencies you will need to implement Redux, using **npm**.
-- [ ] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-      Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-
-### Task 2a:  _MVP Requirements:_
-
-**Step 1 - Planning 📝**
-
-- Take a good amount of time to familiarize yourself with the project structure. Figure out what data you have and where it's being used (Pen and paper or a whiteboard will be your best friend here!)
-- Plan out your state management structure as mentioned above. The only requirment is that you _must_ use Redux
-- Write out the steps you think you'll need to complete this project. It seems silly, but doing this with every project will help you grow into a better developer a lot faster.
-- Take note of the few comments throughout the app. They are there as little guides to nudge you in the right direction. You're welcome 😉
-
-**Step 2 - And... Action! 🎬**
-
-- Time to get your hands on your keyboard. Look at the first step you wrote down and start implementing!
-- As you work through setting up redux, you can do it however you'd like. This is the flow that works for me:
-
-```text
-Set up "empty" reducer and initial state 👉 Set up store and Provider 👉
-Connect components 👉 Add events and event handlers in UI 👉 Build action creators 👉
-write the reducer logic for the actions 👉 Rinse and repeat
-```
-
-#### _MVP Requirements:_
-
-- Move the given state to the reducer as the initial state for the Redux store.
-- Set up the Redux flow
-- User should be able to add features to their car
-- User should be able to remove added features from their car
-- Total should update as user adds and removes features from their car
-
-### Task 2b: Exit Ticket
-
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/aqXHiPPM4uCzqD3T5/mbDWo3KwoFmquD).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
+![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=labs-api-starter&metric=sqale_rating)
+![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
+![React](https://img.shields.io/badge/react-v16.7.0--alpha.2-blue.svg)
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 
 
-### Task 3: Stretch Problems
+<h2 align="center">Tech Stack</h2>
+ <div align="center" >
+ <img style="margin: 10px" src="https://github.com/tomchen/stack-icons/blob/master/logos/react.svg" alt="React" height="42px">
+<img style="margin: 10px"  src="https://github.com/tomchen/stack-icons/blob/master/logos/redux.svg" alt="Redux" height="42px">
+<img style="margin: 10px" src="https://github.com/gilbarbara/logos/blob/master/logos/sass.svg" alt="Redux" height="42px">
+</div>
 
-Do not attempt stretch problems until MVP has been reached and a final commit has been made.
+<br/>
 
-- Use Redux hooks instead of HOCs
-- Implement React-Router and add a starter page where the user can choose a car. Each car should have different features that have different pricing. Have fun with this! It could end up being really cool.
-- Look into the docs for Bulma and change up the styling.
-- Implement an API from one of these sites [here](https://www.google.com/search?q=car+sales+api&rlz=1C5CHFA_enUS809US809&oq=car+sales+api&aqs=chrome..69i57j0l5.3580j0j1&sourceid=chrome&ie=UTF-8). I don't know if there are any good open APIs for this, so explore around. Check out what data these APIs return, and what you think would be fun to work with. The sky is the limit here!
 
-## Submission Format
-* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
-* [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR
+
+<p align="center">An ReactJS web application that implements React-Redux as a state management system for the data used. The user can add and remove additional features of a car and the total costs updates as well.</p>
+
+![Alt Text](https://abdimohamud.codes/images/car-sales-demo.gif)
+
+ <h2 align="center">Resources</h2>
+  
+<div align="center">
+  <a href="https://car-sales-6n3iiyx5y.vercel.app/" title="Demo"> Demo<img src="https://i.stack.imgur.com/xOpyY.png" alt="Redux" width="42px" height="42px"></a>
+ <br/>
+<a href="https://githubbox.com/abdimohamud/Car-Sales" title="CodeSandbox">CodeSandbox Demo<img src="https://github.com/gilbarbara/logos/blob/master/logos/codesandbox.svg" alt="CodeSandbox" width="42px" height="42px"></a>
+</div>
+
+
+
+- Fork and clone the repo to install it as your own remote.
+- run: `npm install` to download all dependencies.
+- run: `npm start` to start your local development server.
+
+
+
+<h2 align="center"> Features</h2>
+
+- Mock back-end with realistic data generated by Faker.js.
+- Mock back-end with basic JWT authentication.
+
+
+<h2 align="center">Installation Instructions</h2>
+
+- Fork and clone the repo to install it as your own remote.
+- run: `npm install` to download all dependencies.
+- run: `npm start` to start your local development server.
+
+<h2 align="center"> Other Scripts</h2>
+
+    * build - creates a build of the application
+    * start - starts the production server after a build is created
+
+<h2 align="center"> Contributing</h2>
+
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+Please note we have a [code of conduct](./CODE_OF_CONDUCT.md). Please follow it in all your interactions with the project.
+
+<h2 align="center"> Issue/Bug Request</h2>
+
+**If you are having an issue with the existing project code, please submit a bug report under the following guidelines:**
+
+- Check first to see if your issue has already been reported.
+- Check to see if the issue has recently been fixed by attempting to reproduce the issue using the latest master branch in the repository.
+- Create a live example of the problem.
+- Submit a detailed bug report including your environment & browser, steps to reproduce the issue, actual and expected outcomes, where you believe the issue is originating from, and any potential solutions you have considered.
+
+<h2 align="center">Feature Requests</h3>
+
+We would love to hear from you about new features which would improve this app and further the aims of our project. Please provide as much detail and information as possible to show us why you think your new feature should be implemented.
+
+<h2 align="center">Pull Requests</h3> 
+
+If you have developed a patch, bug fix, or new feature that would improve this app, please submit a pull request. It is best to communicate your ideas with the developers first before investing a great deal of time into a pull request to ensure that it will mesh smoothly with the project.
+
+Remember that this project is licensed under the MIT license, and by submitting a pull request, you agree that your work will be, too.
+
+<h2 align="center">Pull Request Guidelines</h4> 
+
+- Update the README.md with details of changes to the interface, including new plist variables, exposed ports, useful file locations and container parameters.
+- Ensure that your code conforms to our existing code conventions and test coverage.
+- Include the relevant issue number, if applicable.
+- You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+
 
